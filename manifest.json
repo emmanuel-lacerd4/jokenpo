@@ -5,7 +5,7 @@
     "orientation": "portrait",
     "icons": [
         {
-            "src": "/img/jokenpo.png",
+            "src": "img/jokenpo.png",
             "sizes": "512x512",
             "type": "image/png"
         }
