@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+/* Estilos globais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f4f4f9;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+h2, h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+form {
+    margin: 20px 0;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+.botao {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.botao:hover {
+    background-color: #45a049;
+}
+
+/* Estilo das imagens */
+img {
+    width: 100px;
+    height: auto;
+    margin: 10px;
+    transition: transform 0.3s;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    img {
+        width: 80px;
+    }
+
+    .botao {
+        padding: 8px 16px;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    h2, h3 {
+        font-size: 1.2rem;
+    }
+
+    img {
+        width: 70px;
+    }
+
+    .botao {
+        padding: 6px 12px;
+        font-size: 0.8rem;
+    }
+}
+
+/* Estilo para o placar */
+#placar {
+    font-size: 1.3rem;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #ffeb3b;
+    border-radius: 8px;
+    width: fit-content;
+    margin: 20px auto;
+}
+
+/* Estilo das separações */
+hr {
+    width: 80%;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+}
