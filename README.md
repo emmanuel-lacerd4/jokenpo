@@ -1,4 +1,4 @@
-# jokenpo
+# Jokenpô
 Desenvolvimento do jogo "Pedra" - "Papel" - "Tesoura".
 ## Author
 Emmanuel L. Nogueira
